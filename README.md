@@ -1,6 +1,6 @@
 # Topic Modeling on Kaggle Dataset Descriptions
 
-![Python](https://img.shields.io/badge/python-3.9--3.11-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
 Discovers the main themes in the text descriptions of popular (voted) Kaggle datasets. Two unsupervised topic models are applied and compared:
 
@@ -21,9 +21,9 @@ After running the script, the results are saved in the repo:
 
 ## Dataset
 
-`data/voted-kaggle-dataset.csv` contains Kaggle datasets with a `Description` column, which is the text used for modeling.
+`data/voted-kaggle-dataset.csv` is the **Upvoted Kaggle Datasets** collection by *canggih*: 2,150 Kaggle datasets with at least two votes, collected on 26 February 2018. Each row has fields such as title, subtitle, owner, votes, tags, license, views, downloads and `Description`. The `Description` column is the text used for modeling.
 
-Source: [Kaggle](https://www.kaggle.com/datasets). Check the dataset page for its license before reusing the data.
+Source: [Upvoted Kaggle Datasets (listing on Baselight)](https://baselight.app/u/kaggle/dataset/canggih_voted_kaggle_dataset). Please check the original Kaggle page for the dataset's license before reusing the data.
 
 ## Methodology
 
@@ -47,7 +47,7 @@ The topic counts differ (LDA 5, NMF 8) and can be changed with command-line opti
 
 ## Getting started
 
-**Requirements:** Python 3.9 to 3.11 (the pinned library versions are not guaranteed to work on newer Python).
+**Requirements:** Python 3.11 or newer. `requirements.txt` pins the exact library versions the project was run with, so other versions are not guaranteed to work.
 
 ```bash
 git clone https://github.com/AshfanBelim/Topic-Modeling.git
