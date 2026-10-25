@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebooks / editors / OS
+.ipynb_checkpoints/
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
